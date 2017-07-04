@@ -8,14 +8,6 @@ function getRow(firstName, lastName, phone) {
     return row;
 }
 
-var contacte = [
-    {firstName:'Adrian',lastName: 'Budac',phone: '01' },
-    {firstName:'Adrian',lastName: 'Buda',phone: '02'},
-    {firstName:'Adrian',lastName: 'Bud',phone: '03'},
-    {firstName:'Adrian',lastName: 'Bu',phone: '04'},
-    {firstName:'Anca'},
-    {lastName: 'Basescu'}
-];
 
 var tableContent = '';
 
@@ -25,14 +17,17 @@ var tableContent = '';
 function createRow(contact) {
     tableContent +=  getRow( contact.firstName, contact.lastName, contact.phone);
 }
+$.ajax('date/contacte.json').done(function (contacte) {
+    console.info('contacte', contacte);
+    contacte.forEach(createRow);
+    $("#contacts-list tbody").html (tableContent);
 
-contacte.forEach(createRow);
+});
 
- function pnetruToateContacteleApeleazaFunctia(){
-     console.info
- }
 
-$("#contacts-list tbody").html (tableContent);
+
+
+
 
 
 
