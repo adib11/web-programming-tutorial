@@ -1,7 +1,26 @@
 [
-  {"firstName":"Adrian","lastName": "Budaca","phone": "01" },
-  {"firstName":"Emil","lastName": "Codrut","phone": "02"},
-  {"firstName":"George","lastName": "Filip","phone": "03"},
-  {"firstName":"Marian","lastName": "Nicu","phone": "04"}
-
+  {
+    "id": "1",
+    "firstName": "Adrian",
+    "lastName": "Budaca",
+    "phone": "01"
+  },
+  {
+    "id": "2",
+    "firstName": "Emil",
+    "lastName": "Codrut",
+    "phone": "02"
+  },
+  {
+    "id": "3",
+    "firstName": "George",
+    "lastName": "Filip",
+    "phone": "03"
+  },
+  {
+    "id": "4",
+    "firstName": "Marian",
+    "lastName": "Nicu",
+    "phone": "04"
+  }
 ]

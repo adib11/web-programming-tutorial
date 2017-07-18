@@ -1,12 +1,12 @@
 // show/hide more info
 document.getElementById('show-info').onclick = function () {
-    document.getElementById('more-info').style.display='inline';
-    document.getElementById('show-info').style.display='none';
+    document.getElementById('more-info').style.display = 'inline';
+    document.getElementById('show-info').style.display = 'none';
 };
 
 document.getElementById('hide-info').onclick = function () {
-    document.getElementById('more-info').style.display='none';
-    document.getElementById('show-info').style.display='inline';
+    document.getElementById('more-info').style.display = 'none';
+    document.getElementById('show-info').style.display = 'inline';
 };
 
 // collapse/expand news widget
